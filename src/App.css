@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    padding: 30px;
+}
+img {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+li.card {
+    display: inline-block;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    margin: 5%;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+h3.title {
+    margin-bottom: 10px;
+    color: blueviolet;
+    text-transform: capitalize;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+    width: 950px;
+    margin: 0 auto;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.menu {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  list-style: none;
+}
+.menu li {
+  text-align: center;
+  border: 2px solid blueviolet;
+  color: blueviolet;
+  padding: 5px 30px;
+  margin: 1px;
+  text-transform: capitalize;
+  cursor: pointer;
+  user-select: none;
+}
+.menu li:hover {
+  background-color: blueviolet;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.price {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-more {
+    background: transparent;
+    border: none;
+    color: blueviolet;
+    font-weight: bold;
+    text-align: left;
+    display: inline;
+    padding: 0 0 0 3px;
+    width: auto;
+    cursor: pointer;
+}
+
+.button-more {
+  background: transparent;
+  border: none;
+  color: blueviolet;
+  font-weight: bold;
+  text-align: left;
+  display: inline;
+  padding: 0 0 0 3px;
+  width: auto;
+  cursor: pointer;
 }

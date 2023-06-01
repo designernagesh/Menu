@@ -1,0 +1,77 @@
+import image1 from '../assets/images/item-1.jpg';
+
+const menu = [
+    {
+      id: 1,
+      title: 'buttermilk pancakes',
+      category: 'breakfast',
+      price: 15.99,
+      img: image1,
+      desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
+    },
+    {
+      id: 2,
+      title: 'diner double',
+      category: 'lunch',
+      price: 13.99,
+      img: 'https://media.gettyimages.com/id/639389404/photo/authentic-indian-food.jpg?s=612x612&w=0&k=20&c=gbfAu17L1gtHmuo5biByhfCefAtYUtGQpyxMmi9_Mus=',
+      desc: `vaporware iPhone mumblecore selvage raw denim slow-carb leggings gochujang helvetica man braid jianbing. Marfa thundercats `,
+    },
+    {
+      id: 3,
+      title: 'godzilla milkshake',
+      category: 'shakes',
+      price: 6.99,
+      img: 'https://media.gettyimages.com/id/511873584/photo/delicous-homemade-chicken-curry-dish-with-rice.jpg?s=612x612&w=0&k=20&c=YVR5Vnpl0BG9k2PSOvhMfiG7U3yJiBhAixlPw0D2KSw=',
+      desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
+    },
+    {
+      id: 4,
+      title: 'country delight',
+      category: 'breakfast',
+      price: 20.99,
+      img: 'https://media.gettyimages.com/id/1298602332/photo/image-of-indian-butter-chicken-tikka-curry-served-in-turquoise-blue-cooking-pan-filled-with.jpg?s=612x612&w=0&k=20&c=8tGHBY12peZDCrS9VjRW6N8q5hCaQ3HzIGLx0OvXdMg=',
+      desc: `Shabby chic keffiyeh neutra snackwave pork belly shoreditch. Prism austin mlkshk truffaut, `,
+    },
+    {
+      id: 5,
+      title: 'egg attack',
+      category: 'lunch',
+      price: 22.99,
+      img: 'https://media.gettyimages.com/id/1251033362/photo/table-full-of-indian-food.jpg?s=612x612&w=0&k=20&c=URXcnD-01JaF7w-4aR7sin50UC-Ed4y46kwMyaG7uYk=',
+      desc: `franzen vegan pabst bicycle rights kickstarter pinterest meditation farm-to-table 90's pop-up `,
+    },
+    {
+      id: 6,
+      title: 'oreo dream',
+      category: 'shakes',
+      price: 18.99,
+      img: 'https://media.gettyimages.com/id/1262815563/photo/indian-food-background.jpg?s=612x612&w=0&k=20&c=3Ux-4H8sZndxHBefzm1cztzckvAnD9X8AKsEHhDC0Iw=',
+      desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
+    },
+    {
+      id: 7,
+      title: 'bacon overflow',
+      category: 'breakfast',
+      price: 8.99,
+      img: 'https://media.gettyimages.com/id/111652624/photo/lunch-of-indian-style.jpg?s=612x612&w=0&k=20&c=CODkSFyT6pQUHbo40QE5u4IOCQF_WWZcI2X3Ulvc8fE=',
+      desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
+    },
+    {
+      id: 8,
+      title: 'american classic',
+      category: 'lunch',
+      price: 12.99,
+      img: 'https://media.gettyimages.com/id/912199986/photo/directly-above-shot-of-food-in-plate-on-table.jpg?s=612x612&w=0&k=20&c=iUsZEVqg3nXksDlDkXmQrouN7IC5TES413XnkI8FBtg=',
+      desc: `on it tumblr kickstarter thundercats migas everyday carry squid palo santo leggings. Food truck truffaut  `,
+    },
+    {
+      id: 9,
+      title: 'quarantine buddy',
+      category: 'shakes',
+      price: 16.99,
+      img: 'https://media.gettyimages.com/id/1212764968/photo/indian-dinner.jpg?s=612x612&w=0&k=20&c=RD7iNMygV3skODToiFAlkB5Z9GM2wOOIqaErHpFjaQo=',
+      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+    },
+  ];
+  export default menu;  
